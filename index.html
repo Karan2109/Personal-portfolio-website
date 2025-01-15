@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karan Portfolio</title>
+</head>
+<body>
+
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Karan <span>Singh</span></h1>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#work">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>    
+            </ul>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </nav>
+    
+        <div class="main">
+            <div class="mainText">
+                <h3>Hello I'm</h3>
+                <h1>Karan <span>Singh</span></h1>
+                <p>Frontend Web Developer</p>
+                <button id="cvBtn">Download CV</button>
+            </div>
+            <img src="./image/man.png" alt="">
+        </div>
+
+        <div class="aboutus" id="about">
+            <div class="head">
+                <h1>About <span>Me</span></h1>
+            </div>
+            <div class="about">
+                <img src="/image/man.png" alt="">
+                <div class="aboutText">
+                    <h2>Hello I'm Frontend <span>Developer</span></h2>
+                    <p>Experience: <span>3 Year</span></p>
+                    <p>Speciality: <span>Website Development</span></p>
+                    <p>Skills: <span>HTML5, CSS, javaScript, React js(Begineer)</span></p>
+                    <p>Education: <span>BSc/MSc Computer Science</span></p>
+                    <p>Location: <span>Mumbai, Maharashtra. India</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="services" id="service">
+            <div class="head">
+                <h1>Services <span>I Offer</span></h1>
+            </div>
+            <div class="service">
+                <div class="card">
+                    <i class="fa-solid fa-mobile-alt"></i>
+                    <h2>Mobile App Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatem magnam nisi consequatur ratione deleniti libero nesciunt saepe vel ut quam eius, porro nihil? Illum culpa tempora autem aperiam quae?</p>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Website Development </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatem magnam nisi consequatur ratione deleniti libero nesciunt saepe vel ut quam eius, porro nihil? Illum culpa tempora autem aperiam quae?</p>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-mobile-alt"></i>
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatem magnam nisi consequatur ratione deleniti libero nesciunt saepe vel ut quam eius, porro nihil? Illum culpa tempora autem aperiam quae?</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="works" id="work">
+            <div class="head">
+                <h1>Projects <span>I've Done</span></h1>
+            </div>
+            <div class="myWork">
+                <div class="workCard">
+                    <img src="./image/ttt.png" alt="">
+                    <p>Tic-Tac-Toe Game</p>
+                    <a href="https://tic-tac-toe-gameks.netlify.app/" target="_blank">Check it out</a>
+                </div>
+
+                <div class="workCard">
+                    <img src="./image/sps.png" alt="">
+                    <p>Stone-Paper-Sessiors Game</p>
+                    <a href="https://tic-tac-toe-gameks.netlify.app/" target="_blank">Check it out</a>
+                </div>
+
+                <div class="workCard">
+                    <img src="./image/pp.png" alt="">
+                    <p>Personal Portfolio</p>
+                    <a href="https://tic-tac-toe-gameks.netlify.app/" target="_blank">Check it out</a>
+                </div>
+            </div>
+
+            <div class="connect" id="contact">
+                <div class="head">
+                    <h1>Connect <span>With Me</span></h1>
+                </div>
+                <div class="contact">
+                    <p>Email: </p>
+                    <input type="text" placeholder="Enter Email" id="email">
+                    <p>Password: </p>
+                    <input type="password" placeholder="Enter Password" id="pass">
+                    <p>Message: </p>
+                    <input type="text" placeholder="Enter Message" id="msg">
+                    <button id="submit">Submit</button>
+                </div>
+            </div>
+
+            <div class="footer">
+                <P>@2025 Portfolio. All rights are Reserved.</P>
+            </div>
+
+     </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
